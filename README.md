@@ -45,7 +45,7 @@ MADWeek10/
 
 ## 4. Step-by-Step Instructions
 
-### Part 1: Project Setup (10 min)
+### Part 1: Project Setup 
 
 1. Create the project:
 
@@ -72,7 +72,7 @@ npx expo start
 
 ---
 
-### Part 2: Connect to Firebase (10 min)
+### Part 2: Connect to Firebase
 
 1. Open the **Firebase Console** and select your project from Lab 08/09.
 2. Go to **Build → Firestore Database** and confirm the database exists.
@@ -86,7 +86,7 @@ npx expo start
 
 ---
 
-### Part 3: Save a Todo (20 min)
+### Part 3: Save a Todo 
 
 Open `services/todoService.js` and complete **TODO 1**.
 
@@ -106,7 +106,7 @@ Then, in `App.js`, complete **TODO 4** so the **Add** button calls `addTodo()`.
 
 ---
 
-### Part 4: Read the Todos (25 min)
+### Part 4: Read the Todos 
 
 This is the main goal of the lab.
 
@@ -135,8 +135,7 @@ Complete **TODO 6** and **TODO 7** in `App.js`:
 
 ---
 
-### Part 6: Test and Submit (10 min)
-
+### Part 6: Test and Submit 
 Test these cases:
 
 | Test                          | Expected result                          |

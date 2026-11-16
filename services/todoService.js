@@ -22,8 +22,13 @@ const todosCollection = collection(db, "todos");
  *
  * Remember: addDoc is asynchronous, so use await.
  */
+
 export async function addTodo(title) {
-  // YOUR CODE HERE
+  await addDoc(todosCollection, {
+    title: title,
+    completed: false,
+    createdAt: serverTimestamp(),
+  });
 }
 
 /**
