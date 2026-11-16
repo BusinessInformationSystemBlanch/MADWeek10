@@ -125,7 +125,7 @@ snapshot.docs.map((doc) => ({ id: doc.id, ...doc.data() }))
 
 ---
 
-### Part 5: Loading, Empty State, and Refresh (15 min)
+### Part 5: Loading, Empty State, and Refresh
 
 Complete **TODO 6** and **TODO 7** in `App.js`:
 
